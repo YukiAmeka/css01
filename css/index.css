@@ -1,0 +1,31 @@
+h1 {
+    color:red;
+    font-family: 'Metamorphous', cursive;
+}
+
+#selected {
+    color:#b642f4;
+}
+
+.mark {
+    border:1px solid green;
+    padding:20px;
+}
+
+div > p{
+    background-color:yellow;
+}
+
+div + p{
+    color:green;
+}
+
+p::first-letter{
+    font-size:2rem;
+    color:red;
+    background-color: green;
+}
+
+p:hover{
+    font-weight: bold;
+}
